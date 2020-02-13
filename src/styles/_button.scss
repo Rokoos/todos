@@ -1,0 +1,19 @@
+.addTodo {
+}
+
+.removeTodo {
+  background-color: #fc0320;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: darken(#fc0320, 5%);
+    transform: translateY(1px);
+  }
+}

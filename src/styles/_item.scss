@@ -1,0 +1,27 @@
+.todo {
+  display: flex;
+  border: 1px solid #007791;
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  // background-color: yellow;
+
+  .todo-title {
+    display: flex;
+    font-style: italic;
+    color: #555;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+    // background-color: turquoise;
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}

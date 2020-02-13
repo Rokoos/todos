@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 80%;
+
+  input {
+    flex: 10;
+    padding: 10px;
+    border: 1px solid #007791;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #007791;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: darken(#007791, 10%);
+    }
+  }
+}
