@@ -8,17 +8,19 @@
   justify-content: space-between;
   align-items: center;
 
-  // background-color: yellow;
-
   .todo-title {
     display: flex;
     font-style: italic;
+    font-size: 0.8rem;
     color: #555;
     justify-content: start;
     align-items: center;
     width: 80%;
     cursor: pointer;
-    // background-color: turquoise;
+
+    @media (min-width: 700px) {
+      font-size: 1rem;
+    }
 
     input {
       margin-right: 10px;
