@@ -36,6 +36,9 @@ class App extends React.Component {
   };
 
   addTodo = title => {
+    if (title.length === 0) {
+      return;
+    }
     const newTodo = {
       title,
       id: uuid(),

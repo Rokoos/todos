@@ -11,7 +11,7 @@ const Item = ({ todo, markComplete, remove }) => {
     <div className="todo">
       <label className="todo-title">
         <input type="checkbox" onChange={() => markComplete(todo.id)} />
-        <h3 style={getStyle()}>{todo.title}</h3>
+        <p style={getStyle()}>{todo.title}</p>
       </label>
       <button className="removeTodo" onClick={() => remove(todo.id)}>
         X
